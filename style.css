@@ -1,0 +1,128 @@
+.iphone {
+    width: 393px;
+    height: 852px;
+    background-image: url("Chrismary.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5e6ed;
+}
+
+h1 {
+    position: absolute;
+    z-index: 2;
+
+    top: 500px;
+    left: 150px;
+
+    font-family: 'Imperial Script', cursive;
+    font-size: 110px;
+    font-weight: 400;
+
+    color: white;
+    margin: 0;
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+
+.ascii-art {
+    position: absolute;
+    z-index: 2;
+
+    top: 5px;
+    left: -10px;
+
+    font-family: monospace;
+    font-size: 10px;
+    line-height: 1;
+
+    color: white;
+    white-space: pre;
+    margin: 0;
+}
+
+.ascii-art2 {
+    position: absolute;
+    z-index: 2;
+
+    top: 470px;
+    left: -5px;
+
+    font-family: monospace;
+    font-size: 8px;
+    line-height: 1;
+
+    color: white;
+    white-space: pre;
+    margin: 0;
+}
+
+.ascii-art, .ascii-art2 {
+    pointer-events: none; /* Allows mouse clicks to pass right through the art */
+    overflow: hidden;    /* Keeps the formatting bounded */
+}
+
+.iphone .Instagram {
+    position: absolute;
+    top: 215px;
+    left: 25px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Imperial Script', cursive;
+    text-decoration: none;
+
+    
+
+}
+
+.iphone .Youtube {
+    position: absolute;
+    top: 275px;
+    left: 25px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Imperial Script', cursive;
+    text-decoration: none;
+
+    
+
+}
+
+.iphone .Spotify {
+    position: absolute;
+    top: 335px;
+    left: 25px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Imperial Script', cursive;
+    text-decoration: none;
+
+    
+
+}
+
+.iphone .Github {
+    position: absolute;
+    top: 400px;
+    left: 25px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Imperial Script', cursive;
+    text-decoration: none;
+
+    
+
+}

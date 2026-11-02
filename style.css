@@ -1,14 +1,7 @@
 .iphone {
-    width: min(100vw, 393px);
-    height: 100dvh;
-    max-height: 852px;
-    aspect-ratio: 393 / 852;
-
     background-image: url("Chrismary.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-
     position: relative;
     overflow: hidden;
 }
@@ -30,27 +23,28 @@ h1 {
     position: absolute;
     z-index: 2;
 
-    top: 58%;
-    left: 38%;
+    top: 500px;
+    left: 150px;
 
     font-family: 'Imperial Script', cursive;
-    font-size: clamp(55px, 14vw, 110px);
+    font-size: 110px;
     font-weight: 400;
 
     color: white;
     margin: 0;
-
     transform: rotate(-90deg);
     transform-origin: center;
 }
 
 .ascii-art {
     position: absolute;
-    top: 1%;
-    left: -2%;
+    z-index: 2;
+
+    top: 5px;
+    left: -10px;
 
     font-family: monospace;
-    font-size: clamp(5px, 1.5vw, 10px);
+    font-size: 10px;
     line-height: 1;
 
     color: white;
@@ -60,11 +54,13 @@ h1 {
 
 .ascii-art2 {
     position: absolute;
-    top: 55%;
-    left: -2%;
+    z-index: 2;
+
+    top: 470px;
+    left: -5px;
 
     font-family: monospace;
-    font-size: clamp(4px, 1.2vw, 8px);
+    font-size: 8px;
     line-height: 1;
 
     color: white;
@@ -79,44 +75,52 @@ h1 {
 
 .iphone .Instagram {
     position: absolute;
-    top: 25%;
-    left: 6%;
-
+    top: 215px;
+    left: 25px;
     color: white;
-    font-size: clamp(25px, 7vw, 50px);
+    font-size: 50px;
     font-family: 'Imperial Script', cursive;
     text-decoration: none;
+
+    
+
 }
 
 .iphone .Youtube {
     position: absolute;
-    top: 32%;
-    left: 6%;
-
+    top: 275px;
+    left: 25px;
     color: white;
-    font-size: clamp(25px, 7vw, 50px);
+    font-size: 50px;
     font-family: 'Imperial Script', cursive;
     text-decoration: none;
+
+    
+
 }
 
 .iphone .Spotify {
     position: absolute;
-    top: 39%;
-    left: 6%;
-
+    top: 335px;
+    left: 25px;
     color: white;
-    font-size: clamp(25px, 7vw, 50px);
+    font-size: 50px;
     font-family: 'Imperial Script', cursive;
     text-decoration: none;
+
+    
+
 }
 
 .iphone .Github {
     position: absolute;
-    top: 47%;
-    left: 6%;
-
+    top: 400px;
+    left: 25px;
     color: white;
-    font-size: clamp(25px, 7vw, 50px);
+    font-size: 50px;
     font-family: 'Imperial Script', cursive;
     text-decoration: none;
+
+    
+
 }

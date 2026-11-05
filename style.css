@@ -6,10 +6,15 @@
     background-position: center;
     position: relative;
     overflow: hidden;
+    /* border-style: outset;
+    border-color: rgb(0, 0, 0);
+    59, 67, 108 */
+
 }
 
+
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 body {
@@ -19,24 +24,45 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgb(0, 0, 0) ,black ,rgb(37, 37, 68),rgb(55, 55, 91) );
 }
 
 h1 {
     position: absolute;
     z-index: 2;
 
-    top: 500px;
-    left: 150px;
+    top: 200px;
+    left: 25px;
 
-    font-family: 'Imperial Script', cursive;
+    font-family: 'Ballet', sans-serif;
     font-size: 110px;
-    font-weight: 400;
+    font-weight: 30;
+    -webkit-text-stroke: 0px transparent;
 
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0;
-    transform: rotate(-90deg);
+    /*transform: rotate(-90deg);*/
     transform-origin: center;
-    animation: h1 2s ease-in-out;
+    animation: h1 6s ease-in-out;
+}
+
+h2 {
+    position: absolute;
+    z-index: 2;
+
+    top: 340px;
+    left: 25px;
+
+    font-family: 'Ballet', sans-serif;
+    font-size: 40px;
+    font-weight: 50;
+    -webkit-text-stroke: 0px transparent;
+
+    color: rgb(45, 30, 129);
+    margin: 0;
+    /*transform: rotate(-90deg);*/
+    transform-origin: center;
+    animation: h1 6s ease-in-out;
 }
 
 .ascii-art {
@@ -75,6 +101,8 @@ h1 {
     animation: art 3s ease-in-out;
 }
 
+
+
 .ascii-art, .ascii-art2 {
     pointer-events: none; /* Allows mouse clicks to pass right through the art */
     overflow: hidden;    /* Keeps the formatting bounded */
@@ -82,8 +110,8 @@ h1 {
 
 .iphone .Instagram {
     position: absolute;
-    top: 215px;
-    left: 25px;
+    top: 500px; /*2158*/
+    left: 170px; /* 25*/
     color: white;
     font-size: 50px;
     font-family: 'Imperial Script', cursive;
@@ -97,8 +125,8 @@ h1 {
 
 .iphone .Youtube {
     position: absolute;
-    top: 275px;
-    left: 25px;
+    top: 550px;
+    left: 170px;
     color: white;
     font-size: 50px;
     font-family: 'Imperial Script', cursive;
@@ -111,8 +139,8 @@ h1 {
 
 .iphone .Spotify {
     position: absolute;
-    top: 335px;
-    left: 25px;
+    top: 610px;
+    left: 170px;
     color: white;
     font-size: 50px;
     font-family: 'Imperial Script', cursive;
@@ -125,8 +153,8 @@ h1 {
 
 .iphone .Github {
     position: absolute;
-    top: 400px;
-    left: 25px;
+    top: 675px;
+    left: 170px;
     color: white;
     font-size: 50px;
     font-family: 'Imperial Script', cursive;
@@ -137,15 +165,25 @@ h1 {
 
 }
 
+/*.iphone img {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: -25px;
+    left: -75px;
+    
+} */
+
+
 @keyframes h1 {
-    from {top: 1000px;}
-    to {top: 500px;}
+    from {left: 1000px;}
+    to {left: 25px;}
 
 }
 
 @keyframes Instagram {
-    from {left: -100px;}
-    to {left: 25px;}
+    from {left: 1000px;}
+    to {left: 170px;}
 
 }
 
@@ -159,3 +197,8 @@ h1 {
     from {left: -100px;}
     to {left: -10px;}
 }
+
+@keyframes art3 {
+    from {left: 500px;}
+    to {left: 150px;}
+} 

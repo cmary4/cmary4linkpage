@@ -168,7 +168,7 @@ h2 {
 
 @keyframes h1 {
      from {
-        transform: translateX(1000px);
+        transform: translateX(400px);
     }
     to {
         transform: translateX(0);

@@ -167,14 +167,22 @@ h2 {
 
 
 @keyframes h1 {
-    from {left: 1000px;}
-    to {left: 25px;}
+     from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(0);
+    }
 
 }
 
 @keyframes Instagram {
-    from {left: 1000px;}
-    to {left: 170px;}
+    from {
+        transform: translateX(830px);
+    }
+    to {
+        transform: translateX(0);
+    }
 
 }
 
@@ -189,3 +197,9 @@ h2 {
     to {left: -10px;}
 }
 
+h1, h2,
+.ascii-art, .ascii-art2,
+.Instagram, .Youtube, .Spotify, .Github {
+    will-change: transform;
+    backface-visibility: hidden;
+}

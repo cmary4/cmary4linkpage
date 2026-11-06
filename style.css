@@ -36,7 +36,7 @@ h1 {
 
     font-family: 'Ballet', sans-serif;
     font-size: 110px;
-    font-weight: 30;
+    font-weight: 100;
     -webkit-text-stroke: 0px transparent;
 
     color: rgb(255, 255, 255);
@@ -55,7 +55,7 @@ h2 {
 
     font-family: 'Ballet', sans-serif;
     font-size: 40px;
-    font-weight: 50;
+    font-weight: 100;
     -webkit-text-stroke: 0px transparent;
 
     color: rgb(45, 30, 129);
@@ -116,7 +116,7 @@ h2 {
     font-size: 50px;
     font-family: 'Imperial Script', cursive;
     text-decoration: none;
-    animation: Instagram 2s ease-in-out;
+    animation: Instagram 2s ease-in-out forwards;
     
 
     
@@ -131,7 +131,7 @@ h2 {
     font-size: 50px;
     font-family: 'Imperial Script', cursive;
     text-decoration: none;
-     animation: Instagram 3s ease-in-out;
+     animation: Instagram 3s ease-in-out forwards;
 
     
 
@@ -145,7 +145,7 @@ h2 {
     font-size: 50px;
     font-family: 'Imperial Script', cursive;
     text-decoration: none;
-     animation: Instagram 4s ease-in-out;
+     animation: Instagram 4s ease-in-out forwards;
 
     
 
@@ -159,20 +159,11 @@ h2 {
     font-size: 50px;
     font-family: 'Imperial Script', cursive;
     text-decoration: none;
-    animation: Instagram 5s ease-in-out;
+    animation: Instagram 5s ease-in-out forwards;
 
     
 
 }
-
-/*.iphone img {
-    width: 500px;
-    height: auto;
-    position: absolute;
-    top: -25px;
-    left: -75px;
-    
-} */
 
 
 @keyframes h1 {
@@ -198,7 +189,3 @@ h2 {
     to {left: -10px;}
 }
 
-@keyframes art3 {
-    from {left: 500px;}
-    to {left: 150px;}
-} 
